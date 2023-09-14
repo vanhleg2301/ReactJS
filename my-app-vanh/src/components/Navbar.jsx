@@ -4,14 +4,14 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { FaFreeCodeCamp } from "react-icons/fa";
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(true);
 
   const handleNav = () => {
     setNav(!nav);
   };
   return (
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4">
-      <h1 className="w-full text-3xl font-bold text-[#00aaff]">Navbar</h1>
+      <h1 className="w-full text-3xl font-bold text-[#00aaff]">Logo</h1>
       <ul
         className="hidden md:flex text-sm font-bold"
         style={{ whiteSpace: "nowrap" }}

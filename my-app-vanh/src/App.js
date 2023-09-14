@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import { Link } from "react-router-dom";
+import Photo from "./components/photo";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className="">
         <Navbar />
         <Hero />
+        <Photo />
       </div>
     </div>
   );
